@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.util.HashMap;
 
 public class Logic {
     private String computerSide;
@@ -7,8 +6,8 @@ public class Logic {
     private JButton[] buttons;
 
     public Logic(JButton[] buttons) {
-        this.computerSide = "x";
-        this.humanSide = "o";
+        this.computerSide = "X";
+        this.humanSide = "O";
         this.buttons = buttons;
     }
 
